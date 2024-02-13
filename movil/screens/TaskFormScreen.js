@@ -10,9 +10,7 @@ const TaskFormScreen = ({ navigation, route }) => {
   });
   const [editing, setEditing] = useState(false);
 
-  // if (route && route.params) {
-  //   navigation.setOptions({ headerTitle: "Updating Task" });
-  // }
+
 
   useEffect(() => {
     if (route.params && route.params.id) {
